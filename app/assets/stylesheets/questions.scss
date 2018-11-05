@@ -1,0 +1,68 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header h1 {
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+
+}
+
+.header p {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.header{
+  margin: 20px;
+  justify-content: left;
+}
+
+.form {
+  margin: 20px;
+
+}
+
+.form-inline {
+  display: flex;
+}
+
+.form-control {
+  flex-grow: 1;
+}
+
+input {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+button {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.question {
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  padding: 20px;
+  border-left: 5px solid gray;
+}
+
+.answer {
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background: #FFFFE1;
+  padding: 20px;
+  border-left: 5px solid gray;
+}
+
+.return {
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.person {
+  padding-top: 10px;
+}
